@@ -4,7 +4,7 @@ type Tresponse<T> = {
   statusCode: number;
   success: boolean;
   message: string;
-  data?: string;
+  data?: T;
   error?: string;
 };
 

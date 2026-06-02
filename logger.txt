@@ -1,0 +1,14 @@
+
+Mehotd -> GET, Time -> 1780379302680, URL -> / 
+
+Mehotd -> POST, Time -> 1780379502309, URL -> /api/auth/login 
+
+Mehotd -> POST, Time -> 1780379514865, URL -> /api/auth/login 
+
+Mehotd -> POST, Time -> 1780379533263, URL -> /api/auth/signup 
+
+Mehotd -> POST, Time -> 1780379623412, URL -> /api/auth/signup 
+
+Mehotd -> POST, Time -> 1780379695492, URL -> /api/auth/signup 
+
+Mehotd -> POST, Time -> 1780379759845, URL -> /api/auth/signup 

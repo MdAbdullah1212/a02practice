@@ -24,13 +24,13 @@ const signupUser = async (req: Request, res: Response) => {
 const loginUser = async (req: Request, res: Response) => {
     try {
 
-        // const result = await authController.loginUser()
-    //   sendResponse(res, {
-    //     statusCode: 201,
-    //     success: true,
-    //     message: "User Signup Successfully",
-    //     data: result,
-    //   });
+        const result = await authService.loginFromDB(req.body);
+      sendResponse(res, {
+        statusCode: 200,
+        success: true,
+        message: "Login successful",
+        data: result,
+      });
     } catch (error: any) {
       sendResponse(res, {
         statusCode: 500,
